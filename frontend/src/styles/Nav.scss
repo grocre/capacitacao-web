@@ -1,0 +1,82 @@
+.Nav {
+    background-color: #0d5faa;
+    min-height: 100%;
+    width: 25%;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+
+    #logo-ramo {
+        display: block;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    #menu {
+        list-style: none;
+
+        .menu-options {
+            font-family: Roboto;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            padding: .5rem 0;
+            transition: color .3s ease;
+        }
+
+        .menu-options:hover {
+            color: #0E1354;
+            cursor: pointer;
+        }
+    }
+
+    #user-content {
+        background-color: #0574BC;
+        margin-bottom: 3rem;
+        padding: 1rem 0.8rem;
+        border-radius: 30px;
+        width: 70%;
+        display: flex;
+        align-items: center;
+
+        #user-img {
+            display: inline-block;
+            max-width: 52px;
+            max-height: 52px;
+            border-radius: 50%;
+        }
+
+        #user-data {
+            display: inline-block;
+
+            #user-name {
+                color: white;
+                font-family: Roboto;
+                font-weight: normal;
+                display: inline-block;
+                padding: 0 .6rem;
+            }
+
+            #user-role {
+                color: #f1f1f1;
+                font-family: Roboto;
+                font-size: 12px;
+                display: inline-block;
+                font-weight: normal;
+                padding: 0 .6rem;
+            }
+        }
+
+
+        #arrow {
+            margin-right: 0.5rem;
+            text-decoration: none;
+            color: white;
+            font-family: Roboto;
+        }
+
+    }
+}
